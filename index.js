@@ -72,9 +72,9 @@ app.post('/mosaicArt', upload.single('image'),  async (req, res) => {
     try{
 
         //モザイクの強度決定
-        const mosaicSize = 80
+        const mosaicSize = 15
         //モザイクアートの位置ピクセルの画像サイズ
-        const tileSize = 15
+        const tileSize = 20
         //storageのバケット名
         const bucketName = 'images'
 
